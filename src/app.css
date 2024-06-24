@@ -1,39 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #EDEFF3;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
 }
 
-a {
-  margin-right: 1rem;
+code {
+  font-family: "Open Sans", sans-serif;
 }
 
-main {
-  text-align: center;
-  padding: 1em;
-  margin: 0 auto;
+#root {
+  background: transparent;
 }
 
+
+.deploybutton {
+  background-color: #00b1a3;
+  padding-left: 7.25rem;
+  padding-right: 7.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.deploybutton:hover {
+  transition: 300ms;
+  background-color: #3cbdb2;
+}
+
+.primarybutton {
+  background-color: #415F90;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.primarybutton:hover {
+  transition: 300ms;
+  background-color: #3A5683;
+}
+
+.discordbutton {
+  background-color: #456dac;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.discordbutton:hover {
+  transition: 300ms;
+  background-color: #415F90;
+}
+
+.zeropsbutton {
+  background-color: #5280ca;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 300ms;
+}
+.zeropsbutton:hover {
+  background-color: #456dac;
+}
+
+.gradient-text {
+  display: inline-block;
+  background-image: linear-gradient(to right, #5280ca 0%, #415F90 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 0.4em; /* Small padding to avoid clipping descenders */
+  background-position: 0%;
+  @apply text-6xl;
+}
 h1 {
-  color: #335d92;
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-weight: 100;
-  line-height: 1.1;
-  margin: 4rem auto;
-  max-width: 14rem;
+  color: #2c466f;
 }
 
 p {
-  max-width: 14rem;
-  margin: 2rem auto;
-  line-height: 1.35;
+  color: #2c466f;
 }
 
-@media (min-width: 480px) {
-  h1 {
-    max-width: none;
-  }
 
-  p {
-    max-width: none;
-  }
+.link {
+  color: #415F90;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #2c466f;
+  text-decoration: underline;
 }
