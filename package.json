@@ -1,5 +1,5 @@
 {
-  "name": "example-basic",
+  "name": "recipe-solid-nodejs",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
