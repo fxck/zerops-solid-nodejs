@@ -15,13 +15,13 @@ export default function Home() {
             <h2 class="gradient-text">with <a class="zerops" target="_blank" href="https://zerops.io">Zerops</a></h2>
           </div>
           <p class="max-w-[800px] mx-auto text-2xl font-medium">
-            Solid example running on Zerops' Static service.<br/>
+            Solid example running on Zerops' Node.js service.<br/>
             Deploy and test yourself with a single click!
           </p>
 
           <div class="flex justify-center mt-12">
             <a
-              href="https://app.zerops.io/recipe/solid-static"
+              href="https://app.zerops.io/recipe/solid-nodejs"
               target="_blank"
               class="text-lg inline-block hover:no-underline text-white"
             >
